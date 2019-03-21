@@ -62,11 +62,13 @@ a:hover {
   font-size: 30px;
   font-weight: lighter;
 }
-#footer{
+
+#footer {
   padding: 30px;
   background-color: black;
   color: lightgrey;
 }
+
 .card-white {
   background-color: white;
   border-radius: 4px;
@@ -95,13 +97,27 @@ a:hover {
   color: white;
 }
 
+.btn-yellow {
+  color: white;
+  background-color: orange;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 10px;
+}
+
+.btn-yellow:hover {
+  background-color: yellow;
+  color: white;
+}
+
+
 #footer a {
   color: lightgrey;
   font-size: 32px;
 
 }
 #footer a:hover {
-  color: blue;
+  color: yellow;
 }
 
 .Titre {
@@ -112,4 +128,15 @@ a:hover {
   padding-left: 160px;
 }
 
+.fa-youtube {
+  padding: 15px;
+}
+
+.fa-linkedin {
+  padding: 15px;
+}
+
+.fa-instagram {
+  padding: 15px;
+}
 
